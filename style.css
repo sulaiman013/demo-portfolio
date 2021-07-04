@@ -11,6 +11,7 @@ h1{
 }
 .align{
     text-align: justify;
+    margin-bottom: 25px;
 }
 .top-banner{
     display: flex;
@@ -31,4 +32,15 @@ h1{
     font-weight: 600;
     padding: 10px 40px;
     border-radius: 5px;
+}
+.middle{
+    margin-top: 100px;
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width2{
+    width: 50%;
+    padding-right: 5%;
 }
