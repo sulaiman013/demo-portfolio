@@ -12,9 +12,13 @@ h1{
 .align{
     text-align: justify;
     margin-bottom: 25px;
+    color: rgb(24, 24, 24);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
 }
 .top-banner{
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -35,7 +39,6 @@ h1{
 }
 .middle{
     margin-top: 100px;
-    display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -43,4 +46,46 @@ h1{
 .half-width2{
     width: 50%;
     padding-right: 5%;
+}
+.box-shad{
+    box-shadow: 10px 10px 35px gray;
+}
+.full-stack{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(steelblue, cyan);
+    border-image-slice: 1;
+}
+.full-stack h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.baby{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-image: linear-gradient(teal, salmon);
+    border-image-slice: 1;
+}
+.baby h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.experience-area{
+    background-position: left;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    color: rgb(32, 32, 32);
 }
